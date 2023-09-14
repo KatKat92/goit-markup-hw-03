@@ -1,0 +1,215 @@
+:root {
+  --color-brand: #2e2f42;
+  --color-primery: #ffffff;
+  --hover-color: #404bbf;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: var(--color-primery);
+  letter-spacing: 0.02em;
+}
+
+.main-logo {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.mainlogo-accent {
+  color: var(--color-brand);
+}
+.studio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-brand);
+}
+/*page navigation HEADER*/
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  color: var(--color-brand);
+  font-style: normal;
+}
+.nav-link:hover {
+  color: var(--hover-color);
+}
+
+.nav-link:focus {
+  color: var(--hover-color);
+}
+
+.button-section {
+  background-color: var(--color-brand);
+}
+
+.primery-button {
+  background-color: #4d5ae5;
+  color: var(--color-primery);
+  border: none;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.primery-button:hover {
+  background: var(--hover-color);
+}
+.primery-button:focus {
+  background-color: var(--hover-color);
+}
+
+.address {
+  font-style: normal;
+}
+.address_header {
+  font-style: normal;
+}
+.contacts {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-style: normal;
+  text-decoration: none;
+}
+.contacts:hover {
+  color: var(--hover-color);
+}
+.contacts:focus {
+  color: var(--hover-color);
+}
+
+.page-title {
+  color: var(--color-primery);
+  text-align: center;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
+
+.button-section {
+  background-color: var(--color-brand);
+}
+/* section 3 */
+.caption {
+  color: var(--color-brand);
+  font-family: " Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.sub-caption {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+.employee-block {
+  background-color: #f4f4fd;
+}
+.team {
+  background-color: #f4f4fd;
+  color: #2e2f42;
+  letter-spacing: 0.72px;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "roboto" sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+}
+.employee {
+  background-color: #ffffff;
+}
+.names {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.paragraff_employee {
+  font-size: 16px;
+  line-height: 1.5;
+}
+/* section 4 */
+
+.Portfolio {
+  color: #2e2f42;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+}
+.list-header {
+  color: var(--color-brand);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.paragraph_sec {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.footer {
+  background-color: var(--color-brand);
+}
+.paragraph-footer {
+  color: #f4f4fd;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.mainlogo-accent-footer {
+  color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.mainlogo-footer {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
