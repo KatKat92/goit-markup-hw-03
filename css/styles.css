@@ -42,25 +42,23 @@ li {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  display: flex;
 }
-.img {
+img {
   display: block;
 }
 
 /*---Header Navigation----*/
-.header {
+.hed-container {
   border-bottom: 1px solid #e7e9fc;
-  margin: 0 auto;
 }
 .header-container {
   display: flex;
   justify-content: space-between;
   text-align: center;
+  align-items: center;
 }
 
-.address_header {
-  display: flex;
-}
 .header-navigation {
   align-items: center;
   display: flex;
@@ -78,13 +76,10 @@ li {
   color: #4d5ae5;
   margin-right: 76px;
 }
-.nav-list {
+.address_header {
   display: flex;
-  gap: 40px;
-  list-style-type: none;
-  padding: 24px 0;
-  margin-right: 332px;
 }
+
 .contacts-menu {
   display: flex;
   gap: 40px;
@@ -102,7 +97,13 @@ li {
   text-transform: uppercase;
   color: var(--color-brand);
 }
-/*Header Navigation*/
+.nav-list {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+
+  margin-right: 332px;
+}
 .nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -111,6 +112,7 @@ li {
   letter-spacing: 0.02em;
   color: var(--color-brand);
   font-style: normal;
+  padding: 24px 0;
 }
 .nav-link:hover {
   color: var(--hover-color);
@@ -184,14 +186,14 @@ li {
 .goals-section {
   padding: 120px 0;
 }
-.Goals-caption {
-  text-align: center;
-  display: none;
+
+.visually-hidden {
 }
+
 .achievment-list {
   display: flex;
   gap: 24px;
-  flex-basis: calc((100-72px) / 4);
+  flex-basis: calc((100%-72px) / 4);
 }
 .caption {
   color: var(--color-brand);
