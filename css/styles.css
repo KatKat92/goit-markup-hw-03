@@ -4,6 +4,8 @@
   --hover-color: #404bbf;
 }
 
+/*-- GENERAL SETTINGS --*/
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -31,33 +33,36 @@ li {
   margin: 0;
   padding-left: 0;
 }
-
 .section {
   padding: 60px 0;
 }
-
 .container {
   max-width: 1440px;
+  width: 1158px;
   margin: 0 auto;
-  padding: 0 156px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.img {
+  display: block;
 }
 
 /*---Header Navigation----*/
-
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  margin: 0 auto;
+}
 .header-container {
   display: flex;
   justify-content: space-between;
   text-align: center;
 }
-.nav-list {
-  display: flex;
-  gap: 40px;
-  list-style-type: none;
-}
+
 .address_header {
   display: flex;
 }
 .header-navigation {
+  align-items: center;
   display: flex;
 }
 .main-logo {
@@ -71,6 +76,14 @@ li {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
+}
+.nav-list {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+  padding: 24px 0;
+  margin-right: 332px;
 }
 .contacts-menu {
   display: flex;
@@ -102,7 +115,6 @@ li {
 .nav-link:hover {
   color: var(--hover-color);
 }
-
 .nav-link:focus {
   color: var(--hover-color);
 }
@@ -131,8 +143,12 @@ li {
 
 .button-section {
   background-color: var(--color-brand);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .page-title {
+  display: block;
+  margin: 0 auto;
   color: var(--color-primery);
   text-align: center;
   font-size: 56px;
@@ -140,8 +156,15 @@ li {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
+  max-width: 496px;
+  padding-bottom: 48px;
 }
 .primery-button {
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   background-color: #4d5ae5;
   color: var(--color-primery);
   border-radius: 4px;
@@ -158,6 +181,9 @@ li {
 }
 
 /*-- Goals achievment Section --*/
+.goals-section {
+  padding: 120px 0;
+}
 .Goals-caption {
   text-align: center;
   display: none;
@@ -165,7 +191,7 @@ li {
 .achievment-list {
   display: flex;
   gap: 24px;
-  margin-bottom: 120px;
+  flex-basis: calc((100-72px) / 4);
 }
 .caption {
   color: var(--color-brand);
@@ -177,6 +203,7 @@ li {
   line-height: 24px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 8px;
 }
 .sub-caption {
   font-family: "Roboto", sans-serif;
@@ -189,6 +216,7 @@ li {
 /*-- Section 3 Employee block --*/
 .employee-block {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .team {
   background-color: #f4f4fd;
@@ -208,11 +236,11 @@ li {
   display: flex;
   list-style-type: none;
   gap: 24px;
+  flex-basis: calc((100-72px) / 4);
   flex-wrap: wrap;
 }
 .employee {
   background-color: #ffffff;
-  flex-basis: calc((100-72px) / 4);
 }
 .names {
   font-weight: 500;
