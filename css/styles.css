@@ -207,6 +207,10 @@ img {
 .achievment-list {
   display: flex;
   gap: 24px;
+  
+  list-style-type: none;
+}
+.achievment-item {
   flex-basis: calc((100%-72px) / 4);
 }
 .caption {
